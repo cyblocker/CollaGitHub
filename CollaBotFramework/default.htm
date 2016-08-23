@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <script>
+
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: "222967984764578",
+                xfbml: true,
+                version: "v2.6"
+            });
+
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+    </script>
+</head>
+<body style="font-family:'Segoe UI'">
+    <div class="container-fluid">
+        <h1>Colla</h1>
+        <p>A bot to help you find collaborator and project on GitHub.</p>
+        <div class="row">
+            <div class="col-md-4">
+                <!--<iframe src="https://webchat.botframework.com/embed/colla?s=y_wDz5ro5m0.cwA.L1A.TzKqq3xjygjSGo7p8H11Z8uhNjQN9fuYluJQVJNm3ec" style="height: 502px; max-height: 502px;"></iframe>-->
+                <div class="alert alert-success" role="alert">
+                    To best enable our bot ability, please use following channels to chat with our bot.
+                </div>
+                </div>
+            <div class="col-md-4">
+                <table class="table">
+                    <tr>
+                        <td><a href='https://join.skype.com/bot/ac831805-0788-4871-819d-02fbdfd36a19'><img src='https://dev.botframework.com/Client/Images/Add-To-Skype-Buttons.png' /></a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="fb-messengermessageus"
+                                 messenger_app_id="222967984764578"
+                                 page_id="313708528962503"
+                                 color="white"
+                                 size="standard">
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://slack.com/oauth/authorize?scope=bot&client_id=30453511972.64688858228&redirect_uri=https%3a%2f%2fslack.botframework.com%2fHome%2fauth&state=colla"><img height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x"></a></td>
+                    </tr>
+                    <tr>
+                        <td>GroupMe: <a href='https://groupme.botframework.com/?botId=colla'>@colla</a></td>
+                    </tr>
+                    <tr>
+                        <td>Kik.: <a href='https://bots.kik.com/#/collabot'>collabot</a></td>
+                    </tr>
+                    <tr>
+                        <td>Chat by Email: <a href="mailto:collabot@microsoft.com">collabot@microsoft.com</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
