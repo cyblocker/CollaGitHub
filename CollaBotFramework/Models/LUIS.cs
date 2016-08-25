@@ -38,7 +38,7 @@ namespace CollaBotFramework
         {
 
             Console.WriteLine("input:{0}", input);
-            string url = string.Format("https://api.projectoxford.ai/luis/v1/application?id=d0161fe8-16ac-41b8-8103-d43ab44dbf85&subscription-key=d9aa4c3769bd495eb66204ee51dea8e2&q={0}", Uri.EscapeUriString(input));
+            string url = string.Format("https://api.projectoxford.ai/luis/v1/application?id=6db70866-ad43-4eef-835b-42ad48ce0934&subscription-key=59821ac5c7704e0baa35644a8d19a7f0&q={0}", Uri.EscapeUriString(input));
             //string[] aids = new string[1];
             //aids[0] = "4FA79AF1-F22C-408D-98BB-B7D7AEEF7F04";
             //Data d = new Data(input, "en", aids);
